@@ -9,6 +9,7 @@ group :development do
   gem "hiera-eyaml-plaintext"
   gem "puppet", ENV['PUPPET_VERSION'] || '~> 5.0'
   gem 'json_pure', '<= 2.0.1' if RUBY_VERSION < '2.0.0'
+  gem "trollop", '~> 2.1.3'
 end
 
 group :test do
